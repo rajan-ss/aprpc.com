@@ -1,0 +1,41 @@
+@layer base {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-lead font-semibold leading-tight mb-2 capitalize;
+  }
+
+  h1,
+  .h1 {
+    @apply text-3xl sm:text-[40px] xl:text-[64px] leading-normal font-bold text-white uppercase;
+  }
+
+  h2,
+  .h2 {
+    @apply text-2xl sm:text-4xl xl:text-5xl xl:leading-[50px];
+  }
+
+  h3,
+  .h3 {
+    @apply text-lg sm:text-3xl xl:text-4xl;
+  }
+
+  h4,
+  .h4 {
+    @apply text-xl lg:text-2xl;
+  }
+
+  h5,
+  .h5 {
+    @apply text-lg lg:text-xl;
+  }
+
+  h6,
+  .h6 {
+    @apply text-base;
+  }
+}
