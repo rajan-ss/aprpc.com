@@ -16,7 +16,7 @@
 
 
   <div class="site-wrapper">
-    <div class="relative pt-0 lg:pt-12 2xl:pt-16 pb-52 2xl:pb-[194px] mb-40 2xl:mb-48 bg-[url('../images/banner-bg.jpg')] bg-no-repeat bg-cover bg-center z-[1] before:absolute before:inset-0 before:bg-gradient-to-r from-black from-[1.47%] via-black via-[34.48%] to-[67.98%] lg:before:right-[30%] max-md:before:right-[-30px] before:z-[-1]">
+    <div class="absolute top-0 left-0 right-0 z-10 md:pt-12 lg:pt-16">
       <header class="site-header max-lg:bg-gradient-to-l from-white/80 max-sm:via-black via-50% to-black/[1.25%] max-lg:py-4">
         <div class="container flex justify-between items-center">
           <picture class="max-w-40 md:max-w-52 lg:max-w-[288px]">
@@ -37,26 +37,27 @@
     </div>
 
     <main class="site-content">
-      <section class="text-white">
+      <section class="relative pt-48 lg:pt-52 2xl:pt-[264px] pb-52 2xl:pb-[194px] mb-40 2xl:mb-48 bg-[url('../images/banner-bg.jpg')] bg-no-repeat bg-top bg-cover z-[1] before:absolute before:inset-0 before:bg-gradient-to-r from-black from-[1.47%] via-black via-[34.48%] to-[67.98%] lg:before:right-[30%] max-md:before:right-[-30px] before:z-[-1] text-white">
         <div class="container">
-          <div class="relative max-w-80 sm:max-w-96 md:max-w-[29.1rem] lg:max-w-[725px] before:absolute before:left-0 before:z-[-1] before:w-[137px] before:h-32 before:bg-primary/[24%] before:rounded-tr-[66px] before:rounded-bl-[66px] -ml-7">
-            <div class="pl-7 mt-10 md:mt-14 lg:mt-20 2xl:mt-24 [&_a]:mt-10 ">
-              <span class="text-primary font-lead text-base font-semibold leading-8 uppercase tracking-[1px] pl-7">Acupuncture Treatments</span>
-              <h1><span class="font-normal">Experience the</span> Healing Power of Acupuncture</h1>
-              <p>Restore balance, reduce pain, and enhance well-being.</p>
-              <a href="tel:2129918680" class="btn btn-primary">call today</a>
-            </div>
-          </div>
-        </div>
-        <div class="container relative">
-          <div class="p-5 absolute inset-0 top-40 max-w-[1280px] h-[188px] mx-auto bg-white rounded-tr-[65px] rounded-bl-[65px] shadow [&_h2]:relative [&_h2]:h6 [&_h2]:pl-3 [&_h2]:text-primary [&_h2]:uppercase [&_h2]:font-bold [&_h2]:before:absolute [&_h2]:before:inset-0 [&_h2]:before:top-[-3px] [&_h2]:before:w-8 [&_h2]:before:h-8 [&_h2]:before:bg-primary/20 [&_h2]:before:rounded-full">
-            <h2>GET A FREE CONSULTATION!</h2>
-            <p>Ready to begin your healing journey?</p>
-          </div>
-
-          <div>
-            <?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax=true]'); ?>
+          <div class="relative max-w-80 sm:max-w-96 md:max-w-[29.1rem] lg:max-w-[725px] before:absolute before:left-0 before:z-[-1] before:w-[137px] before:h-32 before:bg-primary/[24%] before:rounded-tr-[66px] before:rounded-bl-[66px] before:-ml-7 [&_p]:pt-[14px] [&_p]:pb-10">
+            <span class="text-primary font-lead text-base font-semibold leading-8 uppercase tracking-[1px]">Acupuncture Treatments</span>
+            <h1><span class="font-normal">Experience the</span> Healing Power of Acupuncture</h1>
+            <p>Restore balance, reduce pain, and enhance well-being.</p>
+            <a href="tel:2129918680" class="btn btn-primary">call today</a>
           </div>
         </div>
       </section>
       <!-- /Hero -->
+      <form action="" class="-mt-40">
+        <div class="container">
+          <div class="flex justify-between items-center p-5 bg-white rounded-tr-[65px] rounded-bl-[65px] shadow">
+            <div class="w-1/2 [&_h2]:relative [&_h2]:h6 [&_h2]:pl-3 [&_h2]:text-primary [&_h2]:uppercase [&_h2]:font-bold [&_h2]:before:absolute [&_h2]:before:inset-0 [&_h2]:before:top-[-3px] [&_h2]:before:w-8 [&_h2]:before:h-8 [&_h2]:before:bg-primary/20 [&_h2]:before:rounded-full">
+              <h2>GET A FREE CONSULTATION!</h2>
+              <p>Ready to begin your healing journey?</p>
+            </div>
+            <div class="container w-1/2 inline-form">
+              <?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax=true]'); ?>
+            </div>
+          </div>
+        </div>
+      </form>

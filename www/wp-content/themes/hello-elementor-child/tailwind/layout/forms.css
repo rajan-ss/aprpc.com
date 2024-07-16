@@ -1,29 +1,5 @@
 .form-control {
-  @apply block 
-  w-full 
-  h-12 
-  lg:h-14 
-  px-2 
-  py-4 
-  lg:pl-6 
-  font-sans 
-  font-normal 
-  leading-tight 
-  text-base 
-  text-black 
-  bg-white 
-  bg-clip-padding 
-  border 
-  border-black/20 
-  rounded-sm
-  placeholder:text-black/50 
-  transition 
-  ease-in-out 
-  duration-500 
-  focus:text-black 
-  focus:border-primary 
-  focus:outline-none 
-  focus:shadow-lg;
+  @apply block w-full h-12 lg:h-14 px-2 py-4 lg:pl-6 font-sans font-normal leading-tight text-base text-black bg-white bg-clip-padding border border-black/20 rounded-sm placeholder:text-black/50 transition ease-in-out duration-500 focus:text-black focus:border-primary focus:outline-none focus:shadow-lg;
 }
 
 select.form-control {
@@ -52,21 +28,146 @@ textarea.form-control {
 }
 
 .thank-you-message {
-  @apply text-center 
-  text-base 
-  leading-normal
-  bg-green-600
-  text-white 
-  rounded-lg
-  p-4
-  m-0;
+  @apply text-center text-base leading-normal bg-green-600 text-white rounded-lg p-4 m-0;
 }
 
 .thank-you-message a {
-  @apply whitespace-nowrap
-  font-bold;
+  @apply whitespace-nowrap font-bold;
 }
 
 .thank-you-heading {
   @apply text-xl;
+}
+
+/* Gravity Form Default Styling */
+
+.gfield {
+  @apply basis-full max-w-[100%] w-full mb-4 px-4 xl:px-5;
+}
+
+.gfield-md-half {
+  @apply md:basis-1/2 md:max-w-[50%];
+}
+
+.gfield-md-three-half {
+  @apply md:basis-1/3 md:max-w-[33.33%];
+}
+
+.gfield_label {
+  @apply block text-base text-gray-900 mb-2;
+}
+
+.hidden_label .gfield_label {
+  @apply hidden;
+}
+
+.ginput_container input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
+.ginput_container select,
+.ginput_container textarea {
+  @apply h-12 lg:h-16 border border-solid border-primary-100 rounded-xl text-black w-full py-3 px-5 sm:px-4 outline-none text-base font-normal focus:border-primary-100 appearance-none resize-none;
+}
+
+.ginput_container textarea {
+  @apply h-12 lg:h-16 min-h-[48px] lg:min-h-[64px];
+}
+
+.gform_2 .ginput_container input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
+.gform_2 .ginput_container select,
+.gform_2 .ginput_container textarea {
+  @apply h-11 lg:h-12;
+}
+
+.gform_2 .ginput_container textarea {
+  @apply h-24 lg:h-28 min-h-[96px] lg:min-h-[112px];
+}
+
+.gform_footer {
+  @apply relative inline-block;
+}
+
+.gfield_required_text {
+  @apply hidden;
+}
+
+.gform_button {
+  @apply inline-flex items-center justify-center cursor-pointer px-7 py-4 text-base text-center !leading-5 font-lead font-semibold no-underline select-none border border-solid transition ease-in-out duration-500 focus:outline-none focus:ring focus:ring-offset-1 focus:ring-opacity-50 disabled:opacity-75 disabled:cursor-not-allowed uppercase bg-primary text-white border-primary hover:bg-primary/75 hover:text-white hover:border-primary/75 focus:bg-primary/75 focus:text-white focus:border-primary/75 focus:ring-primary/75 active:bg-primary/50 active:border-primary/50;
+}
+
+.gfield_error input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]),
+.gfield_error select,
+.gfield_error textarea {
+  @apply border-danger placeholder:text-danger;
+}
+
+.gform_submission_error {
+  @apply text-red-500 text-base lg:text-lg;
+}
+
+.validation_message {
+  @apply text-red-500;
+}
+
+.gform_confirmation_message {
+  @apply inline-block bg-green-500 p-4 border border-solid border-white rounded-lg text-base text-white lg:text-lg lg:py-6 lg:px-4 text-center;
+}
+
+.gform_confirmation_message a {
+  @apply text-white underline whitespace-nowrap hover:opacity-75 hover:no-underline;
+}
+
+.gform_validation_errors {
+  @apply text-center;
+}
+
+.gform_validation_errors .gform_submission_error {
+  @apply text-base text-white font-semibold mb-4 bg-danger p-4 w-full lg:text-lg;
+}
+
+.gform_required_legend {
+  @apply hidden;
+}
+
+.validation_message {
+  @apply hidden text-base;
+}
+
+.gform_ajax_spinner {
+  @apply absolute top-2/4 -translate-y-2/4 right-4 !block;
+}
+
+.inline-form .gform_body,
+.inline-form .gform_footer {
+  @apply w-full basis-full lg:basis-auto max-w-[100%] px-4 xl:px-6;
+}
+
+.inline-form .gform_body {
+  @apply lg:max-w-[75%];
+}
+
+.inline-form .gform_footer {
+  @apply lg:max-w-[25%];
+}
+
+.inline-form .gform_footer .gform_button {
+  @apply min-w-full lg:h-16;
+}
+
+.get-in-touch-form .gform_fields {
+  @apply mb-4
+}
+
+.get-in-touch-form .gfield {
+  @apply mb-4
+}
+
+.get-in-touch-form .gform_footer {
+  @apply w-full block;
+}
+
+.get-in-touch-form .gform_footer .gform_button {
+  @apply min-w-full h-full;
+}
+
+.get-in-touch-form .ginput_container_textarea .textarea {
+  @apply h-36;
 }
