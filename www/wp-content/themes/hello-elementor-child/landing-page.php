@@ -6,7 +6,7 @@
  */
 include 'header-landing.php'; ?>
 
-<section class="pb-14 sm:pb-20 lg:pb-24 2xl:pb-[120px]" id="about-us">
+<section class="pb-14 sm:pb-20 lg:pb-24 2xl:pb-[120px] pt-10 md:pt-[70px] lg:pt-[100px]" id="about-us">
   <div class="container flex justify-center items-center max-lg:flex-wrap gap-16">
     <div class="w-full lg:w-1/2 [&_p]:text-neutral-500">
       <picture class="[&_img]:rounded-tl-[100px] [&_img]:rounded-br-[100px] max-lg:[&_img]:w-full">

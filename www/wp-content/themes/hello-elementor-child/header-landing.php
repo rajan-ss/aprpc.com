@@ -37,7 +37,7 @@
     </div>
 
     <main class="site-content">
-      <section class="relative pt-48 lg:pt-52 2xl:pt-[264px] pb-52 2xl:pb-[194px] mb-40 2xl:mb-48 bg-[url('../images/banner-bg.jpg')] bg-no-repeat bg-top bg-cover z-[1] before:absolute before:inset-0 before:bg-gradient-to-r from-black from-[1.47%] via-black via-[34.48%] to-[67.98%] lg:before:right-[30%] max-md:before:right-[-30px] before:z-[-1] text-white">
+      <section class="relative pt-48 lg:pt-52 2xl:pt-[264px] pb-[208px] 2xl:pb-[264px] bg-[url('../images/banner-bg.jpg')] bg-no-repeat bg-top bg-cover z-[1] before:absolute before:inset-0 before:bg-gradient-to-r from-black from-[1.47%] via-black via-[34.48%] to-[67.98%] lg:before:right-[30%] max-md:before:right-[-30px] before:z-[-1] text-white">
         <div class="container">
           <div class="relative max-w-80 sm:max-w-96 md:max-w-[29.1rem] lg:max-w-[725px] before:absolute before:left-0 before:z-[-1] before:w-[137px] before:h-32 before:bg-primary/[24%] before:rounded-tr-[66px] before:rounded-bl-[66px] before:-ml-7 [&_p]:pt-[14px] [&_p]:pb-10">
             <span class="text-primary font-lead text-base font-semibold leading-8 uppercase tracking-[1px]">Acupuncture Treatments</span>
@@ -48,16 +48,18 @@
         </div>
       </section>
       <!-- /Hero -->
-      <form action="" class="-mt-40">
+      <section class="banner-form -mt-[95px] relative z-[1] max-lg:mx-5">
         <div class="container">
-          <div class="flex justify-between items-center p-5 bg-white rounded-tr-[65px] rounded-bl-[65px] shadow">
-            <div class="w-1/2 [&_h2]:relative [&_h2]:h6 [&_h2]:pl-3 [&_h2]:text-primary [&_h2]:uppercase [&_h2]:font-bold [&_h2]:before:absolute [&_h2]:before:inset-0 [&_h2]:before:top-[-3px] [&_h2]:before:w-8 [&_h2]:before:h-8 [&_h2]:before:bg-primary/20 [&_h2]:before:rounded-full">
-              <h2>GET A FREE CONSULTATION!</h2>
-              <p>Ready to begin your healing journey?</p>
+          <div class="flex flex-wrap -mx-5 justify-between items-center pt-8 pb-9 lg:pb-5 pr-4 lg:pr-14 pl-4 bg-white rounded-tr-[65px] rounded-bl-[65px] shadow">
+            <div class="w-full lg:w-[28%] px-5">
+              <div class="[&_h2]:relative [&_h2]:h6 [&_h2]:pl-3 [&_h2]:text-primary [&_h2]:uppercase [&_h2]:font-bold [&_h2]:before:absolute [&_h2]:before:inset-0 [&_h2]:before:top-[-3px] [&_h2]:before:w-8 [&_h2]:before:h-8 [&_h2]:before:bg-primary/20 [&_h2]:before:rounded-full">
+                <h2>GET A FREE CONSULTATION!</h2>
+                <p>Ready to begin your healing journey?</p>
+              </div>
             </div>
-            <div class="container w-1/2 inline-form">
+            <div class="w-full lg:w-[70%] px-5">
               <?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax=true]'); ?>
             </div>
           </div>
         </div>
-      </form>
+      </section>
