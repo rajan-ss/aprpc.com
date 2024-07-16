@@ -27,10 +27,12 @@ module.exports = {
         },
         'ss-lightgray': {
           DEFAULT: '#F6F4FA',
+          100: '#C1C6DB80',
         },
         'ss-dark': {
           DEFAULT: '#11161E',
           100: '#141414',
+          200: '#00060F',
         },
         'ss-yellow': {
           DEFAULT: '#FFC107',

@@ -57,10 +57,10 @@
         </div>
       </div>
     </div>
-    <div class="max-lg:mt-8 lg:w-1/2 px-9 pb-10 pt-12 bg-white relative lg:absolute lg:-top-12 right-0 z-[2] shadow-black/20 shadow-[0px_6px_34px_0px] rounded-xl before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-52 before:h-3 before:rounded-b-full before:bg-primary-100 [&_h2]:text-[40px] [&_h2]:text-ss-gray-900">
+    <div class="max-w-[531px] max-lg:mt-8 lg:w-1/2 px-9 py-10 bg-white relative lg:absolute lg:-top-12 right-0 z-[2] shadow-black/20 shadow-[0px_6px_34px_0px] rounded-xl before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-52 before:h-3 before:rounded-b-full before:bg-primary-100 [&_h2]:text-[40px] [&_h2]:text-ss-gray-900">
       <h2>Contact <span class="text-primary">Us</span></h2>
 
-      <div>
+      <div class="footer-form">
         <?php echo do_shortcode('[gravityform id="2" title="false" description="false" ajax=true]'); ?>
       </div>
     </div>

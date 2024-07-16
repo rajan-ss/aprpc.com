@@ -104,8 +104,27 @@ $(document).ready(function () {
       var $button = $(this).closest('.slide-read-more-button')
       $button.toggleClass('read-more')
       $box.toggleClass('read-more')
+      const height = $box.find('.truncate-div').height()
+      console.log(height)
+      if ($box.hasClass('read-more')) {
+        $box.css({
+          height: height + 'px',
+        })
+      } else {
+        $box.css({
+          height: '200px',
+        })
+      }
     })
   }
-
   SliderReadMore()
+
+  // $('.slide-read-more-button').click(function () {
+  //   $('.slide-read-more').slideToggle()
+  //   if ($('.slide-read-more-button').text() == 'Read more') {
+  //     $(this).text('Read less')
+  //   } else {
+  //     $(this).text('Read more')
+  //   }
+  // })
 })

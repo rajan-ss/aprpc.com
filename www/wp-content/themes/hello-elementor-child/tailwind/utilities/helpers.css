@@ -26,3 +26,39 @@
 .swiper-slide .slide-read-more {
     @apply transition-all ease-in-out duration-200;
 }
+
+.footer-form .gform_fields .gfield:last-child select {
+    @apply pt-[0.5em] pr-[3.5em] pb-[0.5em] pl-[1em] box-border appearance-none;
+}
+
+.footer-form .gform_fields .gfield:last-child select.gfield_select {
+    background-image:
+        linear-gradient(45deg, transparent 50%, black 50%),
+        linear-gradient(135deg, black 50%, transparent 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - -2.5em);
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+.footer-form .gform_fields .gfield:last-child select.gfield_select:focus {
+    background-image:
+        linear-gradient(45deg, black 50%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, rgb(0, 0, 0, 128) 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 15px) 1em,
+        calc(100% - 20px) 1em,
+        calc(100% - -2.5em);
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+}

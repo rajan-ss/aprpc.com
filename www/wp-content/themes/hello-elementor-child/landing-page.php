@@ -1,4 +1,5 @@
 <?php
+
 /**
  * 
  * Template Name: Landing Page
@@ -415,8 +416,10 @@ include 'header-landing.php'; ?>
                 </ul>
               </div>
             </div>
-            <div class="slide-read-more">
-              <p>Acupuncture was recommended to me while I was trying to conceive. I had never tried it before but was happy to give anything a try that may help me get pregnant. Working in a new neighborhood I searched for an acupuncture practice and came across Acupuncture Remedies. Right around the corner with a focus in fertility, it was fate! I saw Iris on my first visit and was immediately comfortable. She talked me through how the treatment would go and was very kind and considerate. I began going once a week and after 3 months (and some help from the fertility doctor) I was pregnant! I have seen Iris, Kim and Marcy in my time here and all are amazing. I always leave feeling relaxed and with an overall better energy. I had many that helped me achieve my dream of being a mom and there is no question the team at Acupuncture Remedies was a part of that. I am very lucky to have found this practice and I can say with absolute certainty that whether it is fertility treatment, pain or anything else this team will do their best to help you.</p>
+            <div class="slide-read-more transition duration-200" style="height: 200px;">
+              <div class="truncate-div">
+                <p>Acupuncture was recommended to me while I was trying to conceive. I had never tried it before but was happy to give anything a try that may help me get pregnant. Working in a new neighborhood I searched for an acupuncture practice and came across Acupuncture Remedies. Right around the corner with a focus in fertility, it was fate! I saw Iris on my first visit and was immediately comfortable. She talked me through how the treatment would go and was very kind and considerate. I began going once a week and after 3 months (and some help from the fertility doctor) I was pregnant! I have seen Iris, Kim and Marcy in my time here and all are amazing. I always leave feeling relaxed and with an overall better energy. I had many that helped me achieve my dream of being a mom and there is no question the team at Acupuncture Remedies was a part of that. I am very lucky to have found this practice and I can say with absolute certainty that whether it is fertility treatment, pain or anything else this team will do their best to help you.</p>
+              </div>
             </div>
             <button class="group slide-read-more-button read-more-button text-primary-100 hover:text-primary-100/80 mt-4 transition-all">
               <span class="inline group-[.read-more]:hidden">Read More</span>
@@ -441,8 +444,10 @@ include 'header-landing.php'; ?>
                 </ul>
               </div>
             </div>
-            <div class="slide-read-more">
-              <p>As someone new to acupuncture, Iris immediately put me at ease with her friendly, warm and welcoming nature. She took the time to talk with me about what I was hoping to improve through acupuncture and was very knowledgeable. I'm onto my sixth visit and am feeling great and loving it! Jennifer has also been very informative and has shared her knowledge of Chinese medicine, which I knew very little about and am now quite interested in. I always leave feeling centered and like the sessions have been very beneficial. Would highly recommend.</p>
+            <div class="slide-read-more transition duration-200" style="height: 200px;">
+              <div class="truncate-div">
+                <p>As someone new to acupuncture, Iris immediately put me at ease with her friendly, warm and welcoming nature. She took the time to talk with me about what I was hoping to improve through acupuncture and was very knowledgeable. I'm onto my sixth visit and am feeling great and loving it! Jennifer has also been very informative and has shared her knowledge of Chinese medicine, which I knew very little about and am now quite interested in. I always leave feeling centered and like the sessions have been very beneficial. Would highly recommend.</p>
+              </div>
             </div>
             <button class="group slide-read-more-button read-more-button text-primary-100 hover:text-primary-100/80 mt-4 transition-all">
               <span class="inline group-[.read-more]:hidden">Read More</span>

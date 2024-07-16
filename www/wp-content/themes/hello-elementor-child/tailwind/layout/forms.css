@@ -64,7 +64,7 @@ textarea.form-control {
 .ginput_container input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
 .ginput_container select,
 .ginput_container textarea {
-  @apply h-[42px] border border-solid border-primary-100 rounded-sm text-black w-full py-1.5 px-5 sm:px-4 outline-none text-base font-normal focus:border-primary-100 appearance-none resize-none;
+  @apply h-[42px] border border-solid border-ss-lightgray-100/50 rounded-[6px] text-black w-full py-2 px-5 sm:px-4 outline-none text-sm font-normal focus:border-primary-100/50 appearance-none resize-none;
 }
 
 .ginput_container textarea {
@@ -175,127 +175,101 @@ textarea.form-control {
 
 /*Banner form styles*/
 
-.banner-form .gform_fields{
-  @apply
- flex
- flex-wrap
- -mx-[9px]
-  ;
- 
- }
- .banner-form form{
-  @apply
- relative
-  ;
- 
- }
- .banner-form .gform_fields .gfield{
-  @apply
- px-[9px]
-  ;
- }
- .banner-form .gform_footer{
-  @apply
- lg:absolute
- lg:right-0
- lg:bottom-[23px]
- w-full
- lg:w-[32%]
-  ;
- }
- .banner-form .gform_footer .gform_button{
-  @apply
- !leading-[1]
- w-full
- focus:outline-0
- focus:shadow-none
- focus:border-none
- rounded-sm
-  ;
- }
- .banner-form .gform_fields .gfield:nth-child(1){
-  @apply
-  w-full
-  max-w-full
- lg:w-[33.33%]
- lg:max-w-[33.33%]
- basis-auto
-  ;
- }
- 
- .banner-form .gform_fields .gfield:nth-child(2),
- .banner-form .gform_fields .gfield:nth-child(3){
-  @apply
-  w-full
-  max-w-full
-  md:w-1/2
-  md:max-w-[50%]
- lg:w-[33.33%]
- lg:max-w-[33.33%]
- basis-auto
-  ;
- }
- .banner-form .gform_fields .gfield:nth-child(4){
-  @apply
-  w-full
-  max-w-full
- lg:w-[66.66%]
- lg:max-w-[66.66%]
- basis-auto
-  ;
- }
- 
- .banner-form .ginput_container input:not([type="radio"]):not([type="checkbox"]),
- .banner-form .ginput_container select,
- .banner-form .ginput_container textarea {
-   @apply 
-   h-[50px]
-   pl-[34px]
-   ;
- }
- .banner-form .ginput_container textarea {
-   @apply 
-   min-h-[50px]
-   pt-[11px]
-   ;
- }
- 
- .banner-form .ginput_container{
-  @apply
-  relative
-  before:absolute
-  before:font-icomoon
-  before:top-[13px]
-  lg:before:top-[10px]
-  before:left-3
-  before:text-primary
-  ;
-  
- }
- 
- .banner-form .gfield_error .ginput_container{
-  @apply
- before:text-red-600
-  ;
- }
- 
- .banner-form .ginput_container_text{
-  @apply
-  before:content-['\e912']
- ;
- }
- .banner-form .ginput_container_email{
-  @apply
-  before:content-['\e913']
- ;
- }
- .banner-form .ginput_container_phone{
-  @apply
-  before:content-['\e902']
- ;
- }
- .banner-form .ginput_container_textarea{
-  @apply
-  before:content-['\e914']
- ;
- }
+.banner-form .gform_fields {
+  @apply flex flex-wrap -mx-[9px];
+
+}
+
+.banner-form form {
+  @apply relative;
+
+}
+
+.banner-form .gform_fields .gfield {
+  @apply px-[9px];
+}
+
+.banner-form .gform_footer {
+  @apply lg:absolute lg:right-0 pl-3 lg:bottom-[23px] w-full lg:w-[33.33%];
+}
+
+.banner-form .gform_footer .gform_button {
+  @apply !leading-[1] w-full focus:outline-0 focus:shadow-none focus:border-none rounded-sm;
+}
+
+.banner-form .gform_fields .gfield:nth-child(1) {
+  @apply w-full max-w-full lg:w-[33.33%] lg:max-w-[33.33%] basis-auto;
+}
+
+.banner-form .gform_fields .gfield:nth-child(2),
+.banner-form .gform_fields .gfield:nth-child(3) {
+  @apply w-full max-w-full md:w-1/2 md:max-w-[50%] lg:w-[33.33%] lg:max-w-[33.33%] basis-auto;
+}
+
+.banner-form .gform_fields .gfield:nth-child(4) {
+  @apply w-full max-w-full lg:w-[66.66%] lg:max-w-[66.66%] basis-auto;
+}
+
+.banner-form .ginput_container input:not([type="radio"]):not([type="checkbox"]),
+.banner-form .ginput_container select,
+.banner-form .ginput_container textarea {
+  @apply h-[50px] pl-[34px];
+}
+
+.banner-form .ginput_container textarea {
+  @apply min-h-[50px] pt-[11px];
+}
+
+.banner-form .ginput_container {
+  @apply relative before:absolute before:font-icomoon before:top-[13px] lg:before:top-[10px] before:left-3 before:text-primary;
+
+}
+
+.banner-form .gfield_error .ginput_container {
+  @apply before:text-red-600;
+}
+
+.banner-form .ginput_container_text {
+  @apply before:content-['\e912'];
+}
+
+.banner-form .ginput_container_email {
+  @apply before:content-['\e913'];
+}
+
+.banner-form .ginput_container_phone {
+  @apply before:content-['\e902'];
+}
+
+.banner-form .ginput_container_textarea {
+  @apply before:content-['\e914'];
+}
+
+/* Footer Form */
+.footer-form .gform_fields {
+  @apply flex flex-wrap gap-y-2 -mx-[10px];
+
+}
+
+.footer-form .gform_fields .gfield {
+  @apply px-[10px];
+}
+
+.footer-form .gform_fields .gfield:nth-child(2),
+.footer-form .gform_fields .gfield:nth-child(3) {
+  @apply w-full max-w-full lg:w-1/2 basis-auto;
+}
+
+.footer-form .gfield_label {
+  @apply text-sm font-semibold leading-[26px] tracking-[-0.1px] text-ss-dark-200;
+}
+
+/* .footer-form .ginput_container input:not([type=radio]):not([type=checkbox]):not([type=submit]),
+.ginput_container select,
+{
+@apply text-black/[0.5]
+} */
+
+.footer-form .gform_button {
+  @apply mt-6;
+}
