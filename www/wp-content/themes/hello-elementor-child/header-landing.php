@@ -16,8 +16,8 @@
 
 
   <div class="site-wrapper">
-    <div class="absolute top-0 left-0 right-0 z-10 md:pt-12 lg:pt-16">
-      <header class="site-header max-lg:bg-gradient-to-l from-white/80 max-sm:via-black via-50% to-black/[1.25%] max-lg:py-4">
+    <div class="absolute top-0 left-0 right-0 z-10 md:pt-12 lg:pt-16 bg-gradient-to-l from-white  lg:to-black/[1.25%] to-black md:pb-6">
+      <header class="site-header max-lg:py-4">
         <div class="container flex justify-between items-center">
           <picture class="max-w-40 md:max-w-52 lg:max-w-[288px]">
             <img src="<?php echo get_theme_file_uri(); ?>/assets/images/header-logo.png" alt="Header Logo" width="288" height="79" loading="lazy">
@@ -37,7 +37,12 @@
     </div>
 
     <main class="site-content">
-      <section class="relative pt-48 lg:pt-52 2xl:pt-[264px] pb-[208px] 2xl:pb-[264px] bg-[url('../images/banner-bg.jpg')] bg-no-repeat bg-top bg-cover z-[1] before:absolute before:inset-0 before:bg-gradient-to-r from-black from-[1.47%] via-black via-[34.48%] to-[67.98%] lg:before:right-[30%] max-md:before:right-[-30px] before:z-[-1] text-white">
+      <section class="relative pt-48 lg:pt-52 2xl:pt-[264px] pb-[208px] 2xl:pb-[264px] bg-[url('../images/hero-bg-img.jpg')] bg-no-repeat bg-right max-lg:bg-none z-[1] before:absolute before:inset-0 before:bg-gradient-to-t lg:before:bg-gradient-to-r from-black from-[1.47%] via-black via-[53%] sm:via-[49%] md:via-[39%] lg:via-[34.48%] to-[63%] md:to-[53%] lg:to-[100%] lg:before:right-[30%] max-md:before:right-[-30px] before:z-[-1] text-white">
+        <div class="container relative z-[-2] lg:hidden pb-3 md:pb-6">
+          <picture>
+            <img src="<?php echo get_theme_file_uri(); ?>/assets/images/hero-image.jpg" width="933" height="835" alt="Hero Image" loading="lazy">
+          </picture>
+        </div>
         <div class="container">
           <div class="relative max-w-80 sm:max-w-96 md:max-w-[29.1rem] lg:max-w-[725px] before:absolute before:left-0 before:z-[-1] before:w-[137px] before:h-32 before:bg-primary/[24%] before:rounded-tr-[66px] before:rounded-bl-[66px] before:-ml-7 [&_p]:pt-[14px] [&_p]:pb-10">
             <span class="text-primary font-lead text-base font-semibold leading-8 uppercase tracking-[1px]">Acupuncture Treatments</span>
