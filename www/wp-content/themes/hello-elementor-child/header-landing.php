@@ -37,7 +37,7 @@
     </div>
 
     <main class="site-content">
-      <section class="relative pt-48 lg:pt-52 2xl:pt-[264px] pb-[208px] 2xl:pb-[264px] bg-[url('../images/hero-bg-img.jpg')] bg-no-repeat bg-right max-lg:bg-none z-[1] before:absolute before:inset-0 before:bg-gradient-to-t lg:before:bg-gradient-to-r from-black from-[1.47%] via-black via-[53%] sm:via-[49%] md:via-[39%] lg:via-[34.48%] to-[63%] md:to-[53%] lg:to-[100%] lg:before:right-[30%] max-md:before:right-[-30px] before:z-[-1] text-white">
+      <section class="relative pt-20 md:pt-48 lg:pt-52 2xl:pt-[264px] pb-[208px] 2xl:pb-[264px] bg-[url('../images/hero-bg-img.jpg')] bg-no-repeat bg-right max-lg:bg-none z-[1] before:absolute before:inset-0 before:bg-gradient-to-t lg:before:bg-gradient-to-r from-black from-[1.47%] via-black via-[53%] sm:via-[49%] md:via-[39%] lg:via-[34.48%] to-[63%] md:to-[53%] lg:to-[100%] lg:before:right-[30%] max-md:before:right-[-30px] before:z-[-1] text-white">
         <div class="container relative z-[-2] lg:hidden pb-3 md:pb-6">
           <picture>
             <img src="<?php echo get_theme_file_uri(); ?>/assets/images/hero-image.jpg" width="933" height="835" alt="Hero Image" loading="lazy">
