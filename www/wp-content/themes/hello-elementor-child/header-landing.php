@@ -27,7 +27,7 @@
               <span><i class="icon-phone border-[0.815px] border-primary bg-transparent rounded-full p-2 lg:p-3 group-hover:bg-primary group-hover:text-white transition-all"></i></span>
             </a>
             <div class="[&_p]:mb-0 group-hover:text-primary transition-all text-sm max-md:hidden">
-              <p>FREE CONSULTATION!</p>
+              <p>Schedule A Consultation</p>
               <strong class="font-lead text-[20px] text-primary leading-8 tracking-[0.4px] group-hover:text-black transition-all">(212) 991-8680</strong>
             </div>
           </div>
@@ -58,7 +58,7 @@
           <div class="flex flex-wrap -mx-5 justify-between items-center pt-8 pb-9 lg:pb-5 pr-4 lg:pr-14 pl-4 bg-white rounded-tr-[65px] rounded-bl-[65px] shadow">
             <div class="w-full lg:w-[28%] px-5">
               <div class="[&_h2]:relative [&_h2]:h6 [&_h2]:pl-3 [&_h2]:text-primary [&_h2]:uppercase [&_h2]:font-bold [&_h2]:before:absolute [&_h2]:before:inset-0 [&_h2]:before:top-[-3px] [&_h2]:before:w-8 [&_h2]:before:h-8 [&_h2]:before:bg-primary/20 [&_h2]:before:rounded-full">
-                <h2>GET A FREE CONSULTATION!</h2>
+                <h2>Schedule A Consultation</h2>
                 <p>Ready to begin your healing journey?</p>
               </div>
             </div>
