@@ -1,7 +1,7 @@
 </main>
 
 <footer class="site-footer relative before:bg-black/90 before:absolute before:top-0 before:bottom-0 before:right-0 before:left-0 before:z-[1]" style="background-image: url('../images/footer-bg.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;">
-  <div class="container flex max-lg:flex-col relative z-[2] py-14" id="contact-us">
+  <div class="container flex lg:justify-between max-lg:flex-col relative z-[2] py-14" id="contact-us">
     <div class="lg:w-1/2">
       <picture>
         <img src="<?php echo get_theme_file_uri(); ?>/assets/images/site-footer.logo.png" alt="Site Footer Logo" width="339" height="93" loading="lazy">
@@ -57,7 +57,7 @@
         </div>
       </div>
     </div>
-    <div class="max-w-[531px] max-lg:mt-8 lg:w-1/2 px-9 py-10 bg-white relative lg:absolute lg:-top-12 right-0 z-[2] shadow-black/20 shadow-[0px_6px_34px_0px] rounded-xl before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-52 before:h-3 before:rounded-b-full before:bg-primary-100 [&_h2]:text-[40px] [&_h2]:text-ss-gray-900">
+    <div class="max-w-[531px] max-lg:mt-8 lg:w-1/2 px-9 py-10 bg-white relative z-[2] lg:mt-[-100px] shadow-black/20 shadow-[0px_6px_34px_0px] rounded-xl before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-52 before:h-3 before:rounded-b-full before:bg-primary-100 [&_h2]:text-[40px] [&_h2]:text-ss-gray-900">
       <h2>Contact <span class="text-primary">Us</span></h2>
 
       <div class="footer-form">
