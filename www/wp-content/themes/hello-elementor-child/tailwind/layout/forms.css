@@ -293,5 +293,5 @@ textarea.form-control {
 }
 
 .footer-form .ginput_container select {
-  @apply pl-3 text-black/50 pr-10;
+  @apply pl-3 text-black/50 pr-10 bg-[url('../images/down.png')] [background-size:16px] bg-no-repeat bg-[calc(100%_-_10px)] ;
 }
